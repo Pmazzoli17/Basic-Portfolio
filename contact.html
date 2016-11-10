@@ -2,49 +2,62 @@
 <html>
 
 <head>
-<title>Index</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<title>Peter Mazzoli Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 </head>
 
-<header>Peter Mazzoli</header>
-
-<nav>
-	<ul>
-	<li>About</li>
-	<li>Portfolio</li>
-	<li>Contact</li>
-	</ul>
-</nav>
-
 <body>
-
 <header>
-	<h1>Contact</h1>
+	<h1>Peter Mazzoli</h1>
+<nav class="topNav">
+	<a href="index.html">About</a>
+	<a href="portfolio.html">Portfolio</a>
+	<a href="contact.html">Contact</a>
+</nav>
 </header>
 
-<section>
-<p>Name</p>
-<p>Email</p>
-<p>Message</p>
+<section class="main">
+<div class="content">
+<h2>Contact Me</h2>
+<hr>
 
-<div>
-Submit
+<form action="mailto:peter.mazzoli@gmail.com" class="emailForm" method="post">
+	Name
+<br>
+<input type="text" name="name">
+<br>
+	Email
+<br>
+<input type="text" name="email">
+<br>
+	Message
+<br>
+<input id="message" type="text" name="message">
+<input id="submitButton" type="submit" name="Send" width="20">
+</form>
 </div>
 
+<div class="socialConnect">
+	<h3>Connect with Me</h3>
+	<hr>
+	<nav class="socialNav">
+	<a href="https://github.com/Pmazzoli17" target="_blank">
+		<img class="socialLogo" src="assets/images/github_logo.png" 
+		alt="Picture of Github Logo">
+	</a>
+	<a href="https://www.linkedin.com/in/peter-mazzoli-b3547241" target="_blank">
+		<img class="socialLogo" src="assets/images/linkedin_logo.png" 
+		alt="Picture of Linkedin Logo">
+	</a>
+	<a href="http://stackoverflow.com/users/6942169/peter-mazzoli" target="_blank">
+		<img class="socialLogo" src="assets/images/stackoverflow_logo.png"
+		alt="Picture of Stack Overflow Logo">
+		</a>
+	</nav>
+	</div>
 </section>
 
-<aside>
-	<h2>Connect with Me</h2>
-	<div>
-		<img github="img-responsive" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_square_black-128.png">
-	</div>
-    <div>
-		<img linkedin="img-responsive" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-linkedin-128.png">
-	</div>
-	<div>
-		<img stack overflow="img-responsive" src="https://cdn2.iconfinder.com/data/icons/social-flat-buttons-3/512/overflow-128.png">
-	</div>
-</aside>
 
 <footer>
 <p>&copy; Copyright 2016 Peter Mazzoli</p>
